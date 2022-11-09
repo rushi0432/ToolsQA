@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.toolsQA.tests.Tooltippage_test">
+        <methods>
+          <include name="verifytitle"/>
+          <include name="verfifytexthover"/>
+          <include name="aftertest"/>
+          <include name="aftertest"/>
+          <include name="beforeclass"/>
+          <include name="verfifycontainerhover"/>
+          <include name="verfifybuttonhover"/>
+          <include name="setup"/>
+          <include name="verfifynumberhover"/>
+        </methods>
+      </class> <!-- com.toolsQA.tests.Tooltippage_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
