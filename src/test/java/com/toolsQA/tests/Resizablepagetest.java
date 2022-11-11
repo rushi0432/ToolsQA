@@ -3,10 +3,8 @@ package com.toolsQA.tests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.toolsQA.basetest.basetest;
 import com.toolsQA.constants.constants;
-import com.toolsQA.pages.Dreaggablepage;
 import com.toolsQA.pages.Interactionspageclick;
 import com.toolsQA.pages.Resizablepage;
 
